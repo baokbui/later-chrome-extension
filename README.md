@@ -19,7 +19,7 @@ Later adds exactly one piece of friction at save time: write a sentence in your 
 - **Snooze, archive, delete** — the usual inbox moves
 - **Local storage only** — nothing leaves your browser
 
-## How to Use
+## Installalation
 
 1. Unzip this folder anywhere on your machine
 2. Open `chrome://extensions/`
