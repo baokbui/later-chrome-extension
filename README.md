@@ -66,18 +66,6 @@ Popup and dashboard listen to `chrome.storage.onChanged` so the UI stays in sync
 
 No network, no analytics, no sync server.
 
-## Roadmap
-
-Things that would make this meaningfully better than yet-another-bookmarks-app:
-
-- **Right-click → Save link** via `contextMenus`
-- **Import/export** to JSON for portability
-- **Sync** via `chrome.storage.sync` (work around the 8 kB quota with item sharding)
-- **Daily digest** — a single notification at 9 am listing everything due today
-- **Recurring reminders** ("every Monday I want to check this")
-- **LLM pass** on items older than a week: "is this still worth your time?" — the *why* field makes this kind of automated triage possible in a way plain bookmarks don't
-- **Chrome Web Store** submission — needs a 440×280 promo image, a privacy policy URL, and screenshots; no code changes required
-
 ## License
 
 MIT — Feel free to do anything to it!
