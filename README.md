@@ -4,7 +4,7 @@ A Chrome extension that fixes "too many tabs" by forcing you to write down **why
 
 ## The idea
 
-Bookmark managers fail because they're optimized for *finding* things later. The problem with tab hoarding isn't finding — it's **remembering why you cared**. Titles and favicons don't cut it; three days later "https://www.youtube.com/watch?v=Aq5WXmQQooo" means nothing.
+Bookmark managers fail because they're optimized for *finding* things later. The problem with tab hoarding isn't finding — it's **remembering why you cared**. Titles and favicons don't cut it; three days later https://www.youtube.com/watch?v=Aq5WXmQQooo means nothing.
 
 Later adds exactly one piece of friction at save time: write a sentence in your own words about why this matters. Then it gets out of the way until the time you said you'd come back.
 
