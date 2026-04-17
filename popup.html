@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Later</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app">
+    <header class="head">
+      <h1>Later</h1>
+      <button id="open-dashboard" title="Open full dashboard" aria-label="Open dashboard">↗</button>
+    </header>
+
+    <form id="add-form" class="form">
+      <input id="url" type="text" placeholder="URL" autocomplete="off" spellcheck="false" />
+      <input id="why" type="text" placeholder="Why are you saving this?" autocomplete="off" />
+      <div class="row">
+        <select id="when">
+          <option value="1h">in 1 hour</option>
+          <option value="today">later today</option>
+          <option value="tomorrow" selected>tomorrow 9 am</option>
+          <option value="3d">in 3 days</option>
+          <option value="week">next week</option>
+        </select>
+        <button id="save-btn" type="submit">Save</button>
+      </div>
+    </form>
+
+    <section id="list" class="list"></section>
+  </div>
+
+  <script src="later.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
